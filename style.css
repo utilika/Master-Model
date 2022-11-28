@@ -1,0 +1,68 @@
+
+
+
+.page{
+    background-color: navajowhite;
+}
+
+
+.h-main{
+    color: rgb(235, 10, 213);
+    text-align: center;
+    text-shadow: #FC0 1px 0 10px;
+}
+
+.h-main:hover{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.text__text{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(94, 81, 189);
+}
+
+.text__text:hover{
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+.star{
+    width: 100%;
+    max-width: 500px;
+}
+.podzagolowok{
+    color: rgb(255, 47, 106);
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+li{
+    color: rgb(128, 137, 128);
+}
+
+.text-vk{
+    font-size: 30px;
+}
+
+.vk-img{
+    width: 100%;
+    max-width: 50px;
+}
+
+.flex-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.common-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 150px;
+}
+.about{
+    width: 100%;
+    max-width: 200px;
+}
+.main-photo{
+    width: 100%;
+    max-width: 800px;
+}
