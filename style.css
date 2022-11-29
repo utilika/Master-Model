@@ -22,13 +22,26 @@
     color: rgb(94, 81, 189);
 }
 
+.flex-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.common-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .text__text:hover{
     text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
 .star{
     width: 100%;
-    max-width: 500px;
+    max-width: 300px;
+    object-fit: cover;
 }
 .podzagolowok{
     color: rgb(255, 47, 106);
@@ -48,21 +61,41 @@ li{
     max-width: 50px;
 }
 
-.flex-img{
+
+/* ---------------------------- */
+/* prokrutka */
+.prokrutka{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-}
-.common-flex{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 150px;
-}
-.about{
+    gap: 10px;
     width: 100%;
-    max-width: 200px;
+    max-width: 600px;
+    height: 450px;
+    overflow-y: scroll;
+    box-sizing: border-box;
 }
+
+.prokrutka-img{
+    width: 100%;
+    max-width: 100px;
+}
+
+.prokrutka-link{
+    padding: 10px;
+}
+.prokrutka-link:hover{
+    color: rgb(8, 246, 80);
+}
+
+/* Obiavleni */
+.obiavleni{
+    border: 2px solid rgb(255, 0, 119);
+    border-radius: 10px;
+}
+/* ---------------------------- */
+
 .main-photo{
     width: 100%;
     max-width: 800px;
+    margin: 0 auto;
 }
