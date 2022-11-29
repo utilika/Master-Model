@@ -5,21 +5,22 @@
     background-color: navajowhite;
 }
 
+.a-main{
+    text-decoration: none;
+}
 
 .h-main{
-    color: rgb(235, 10, 213);
+    font-family: 'Rubik Distressed';
+    color: black;
     text-align: center;
-    text-shadow: #FC0 1px 0 10px;
 }
 
-.h-main:hover{
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-}
 
 .text__text{
+    font-family: 'Syne Mono', monospace;
     font-size: 20px;
     text-align: center;
-    color: rgb(94, 81, 189);
+    
 }
 
 .flex-img{
@@ -34,18 +35,14 @@
     gap: 30px;
 }
 
-.text__text:hover{
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
-}
-
 .star{
     width: 100%;
     max-width: 300px;
     object-fit: cover;
 }
 .podzagolowok{
-    color: rgb(255, 47, 106);
-    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+    
+    
 }
 
 li{
@@ -89,8 +86,14 @@ li{
 
 /* Obiavleni */
 .obiavleni{
-    border: 2px solid rgb(255, 0, 119);
+    
     border-radius: 10px;
+
+    box-shadow:
+    inset rgba(0,0,0,.5) -3px -3px 8px,
+    inset rgba(255,255,255,.9) 3px 3px 8px,
+    rgba(0,0,0,.8) 3px 3px 8px -3px;
+    background: rgb(100,100,100) radial-gradient(circle at 0 0, rgba(255,255,255,.65), rgba(255,255,255,.35));
 }
 /* ---------------------------- */
 
