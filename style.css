@@ -74,14 +74,14 @@ li{
     gap: 10px;
     width: 100%;
     max-width: 600px;
-    height: 450px;
+    height: 550px;
     overflow-y: scroll;
     box-sizing: border-box;
 }
 
 .prokrutka-img{
     width: 100%;
-    max-width: 100px;
+    max-width: 150px;
 }
 
 .prokrutka-link{
