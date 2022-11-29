@@ -57,6 +57,17 @@ li{
 
 /* ---------------------------- */
 /* prokrutka */
+
+.flex-top10{
+    display: flex;
+    flex-direction: column;
+}
+
+.top10-img{
+    width: 100%;
+    max-width: 160px;
+}
+
 .prokrutka{
     display: flex;
     flex-direction: column;
