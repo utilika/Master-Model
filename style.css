@@ -41,9 +41,20 @@
     object-fit: cover;
 }
 
-li{
+li>a{
     color: rgb(128, 137, 128);
 }
+
+.uclugi>li>a:hover{
+    color: black;
+}
+
+/* Uclugi */
+/* -------------------------- */
+
+/* --------------------------- */
+
+
 
 .text-vk{
     font-size: 30px;
